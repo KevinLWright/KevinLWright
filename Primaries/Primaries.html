@@ -17,9 +17,8 @@ body {
 h1 {
   font-family: 'Open Sans', serif;
   text-align: center;
-  text-color: #ffffff;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: #ffffff;
   text-shadow: 0 0 2px rgba(240, 240, 240, 1);
 }
@@ -37,11 +36,26 @@ h1 {
   transform: translateX(-50%) translateY(-50%);
 }
 
+/* The sidebar links */
+.sidebar a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Open Sans', serif;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #808080;
+}
+
     </style>	
 	</head>
 	<body>
-	  <div class="container">
-	  <h1><a href="Primaries/Primaries/Dates/April4.html">APRIL 4th</a></h1>
+	  <div class="container sidebar">
+	  <h1><a class="sidebar" href="Primaries/Dates/April4.html">APRIL 4th</a></h1>
 	  <h1><a rel="stylesheet" href="https://www.reddit.com/r/Kevin_L_Wright/" target="_blank"><i class="fab fa-reddit-square" style="color:#ffffff"></i></a></h1>
 	  </div>
 	</body>

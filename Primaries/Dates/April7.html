@@ -84,10 +84,6 @@ tr {
     border-bottom-left-radius: 3px;
 }
 
-tr:nth-child(even) {
-  background-color: #FFFFFF;
-}
-
 h1 {
   text-align: left;
   height: 50px;
@@ -105,71 +101,9 @@ h5 {
   justify-content: space-around;
 }
 
-.blinking {
-  -webkit-animation: 1s blink ease infinite;
-  -moz-animation: 1s blink ease infinite;
-  -ms-animation: 1s blink ease infinite;
-  -o-animation: 1s blink ease infinite;
-  animation: 1s blink ease infinite;
-  
-}
-
-@keyframes "blink" {
-  from, to {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes blink {
-  from, to {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes "blink" {
-  from, to {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes "blink" {
-  from, to {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes "blink" {
-  from, to {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
 .inline-block-child {
   display: inline-block;
   margin-top: 10px;
-}
-
-.zoom {
-  transition: transform .3s; /* Animation */
-}
-
-.zoom:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .alignleft {
@@ -184,11 +118,10 @@ h5 {
 }
 	
 .logo {
-  position: fixed;
+  position: fixed		;
   bottom: 16px;
   right: 16px;
-{	
-
+{
 </style>
 </head>
 <body style="margin: 60px; font-family: 'Spartan', sans-serif;">
